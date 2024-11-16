@@ -2,28 +2,28 @@
 
 @font-face {
     font-family: 'Young-Serif-400';
-    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    src: url('./../assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Outfit-Regular';
-    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+    src: url('./../assets/fonts/outfit/static/Outfit-Regular.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Outfit-Semibold';
-    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+    src: url('./../assets/fonts/outfit/static/Outfit-SemiBold.ttf') format('truetype');
     font-weight: 600;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Outfit-Bold';
-    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+    src: url('./../assets/fonts/outfit/static/Outfit-Bold.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
@@ -64,8 +64,11 @@
 }
 
 body{
-    width: 100vw;
     font-family: var(--Outfit-Regular);
     color: var(--Stone-600);
     font-size: 16px;
+}
+
+h1{
+    font-family: var(--Young-Serif-400);
 }
