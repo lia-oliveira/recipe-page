@@ -1,1 +1,71 @@
 @charset "UTF-8";
+
+@font-face {
+    font-family: 'Young-Serif-400';
+    src: url('./assets/fonts/young-serif/YoungSerif-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Regular';
+    src: url('./assets/fonts/outfit/static/Outfit-Regular.ttf');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Semibold';
+    src: url('./assets/fonts/outfit/static/Outfit-SemiBold.ttf');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Outfit-Bold';
+    src: url('./assets/fonts/outfit/static/Outfit-Bold.ttf');
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+:root{
+    /*colors*/
+    --White: hsl(0, 0%, 100%);
+    --Stone-100: hsl(30, 54%, 90%);
+    --Stone-150: hsl(30, 18%, 87%);
+    --Stone-600: hsl(30, 10%, 34%);
+    --Brown-800:  hsl(14, 45%, 36%);
+    --Stone-900: hsl(24, 5%, 18%);
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+    --Blue: hsl(228, 45%, 44%);
+
+    /*Fonts*/
+    --Young-Serif-400:'Young-Serif-400', serif;
+    --Outfit-Regular: 'Outfit-Regular', sans-serif;
+    --Outfit-Semibold:'Outfit-Semibold', sans-serif;
+    --Outfit-Bold:'Outfit-Bold', sans-serif;
+    --fs-11: 0.6875em;
+    --fs-12: 0.75em;
+    --fs-14: 0.875em;
+    --fs-20: 1.25em;
+    --fs-36: 2.25em;
+    --fs-40: 2.5em;
+    --fw-400: 400;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+*, html, body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    font-family: var(--Outfit-Regular);
+    color: var(--Stone-600);
+    font-size: 16px;
+}
