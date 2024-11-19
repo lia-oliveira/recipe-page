@@ -97,15 +97,15 @@ h2:not(:first-of-type)::before{
     margin: 2.25rem 0;
 }
 
-h3 {
+p {
+    line-height:1.5em;
+}
+
+.preparation-title {
     font-family: var(--Outfit-Semibold);
     font-size: var(--fs-18);
     color: var(--Rose-800);
-
-}
-
-p {
-    line-height:1.5em;
+    margin-bottom: 0;
 }
 
 ol, ul{
@@ -141,11 +141,11 @@ article img {
 article .content {
     margin: 2.5rem 1.875rem 1.875rem;
 }
-
+/*
 article .content p:first-of-type{
-    /*padding: 0 0.2rem;*/
+    padding: 0 0.2rem;
     margin-bottom: 2.375rem;
-}
+}*/
 
 article .prep-time{
     background-color: var(--Rose-50);
