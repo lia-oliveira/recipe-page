@@ -78,6 +78,7 @@ h1 {
     color:var(--Stone-900);
     font-size: var(--fs-36);
     line-height: 1.5;
+
 }
 
 h2 {
@@ -100,7 +101,7 @@ h3 {
     font-family: var(--Outfit-Semibold);
     font-size: var(--fs-18);
     color: var(--Rose-800);
-    margin: 0 0 1.5625rem 0;
+
 }
 
 p {
@@ -138,11 +139,11 @@ article img {
 }
 
 article .content {
-    margin: 2.5rem 1.875rem 1.875rem; /*40 30 30*/
+    margin: 2.5rem 1.875rem 1.875rem;
 }
 
 article .content p:first-of-type{
-    padding: 0 0.2rem;
+    /*padding: 0 0.2rem;*/
     margin-bottom: 2.375rem;
 }
 
@@ -189,8 +190,10 @@ tbody tr:last-child {
 }
 
 footer{
-    margin: 1rem 0 1rem 1rem;
+    width: 100%;
+    margin: 1rem 0 1rem 0;
     font-size: var(--fs-11);
+    text-align: center;
 }
 
 
@@ -199,7 +202,7 @@ footer{
         background-color: var(--Stone-100);
     }
     .container{
-        max-width: 700px;
+        max-width: 710px;
         background-color: var(--White);
         border-radius: 20px;
         margin-top: 2.5rem;
@@ -216,6 +219,14 @@ footer{
 
     .container .content{
         margin: 0 2.5rem 2.5rem;
+    }
+
+    h1{
+        margin-bottom: 1.785rem;
+    }
+
+    footer{
+        max-width: 700px;
     }
 }
 
