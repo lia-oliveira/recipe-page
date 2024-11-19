@@ -78,7 +78,6 @@ h1 {
     color:var(--Stone-900);
     font-size: var(--fs-36);
     line-height: 1.5;
-    margin: 0 0 1.4375rem 0;  /*0 0 23px 0*/
 }
 
 h2 {
@@ -195,9 +194,6 @@ footer{
 }
 
 
-
-
-
 @media (min-width: 700px){
     html, body{
         background-color: var(--Stone-100);
@@ -208,8 +204,18 @@ footer{
         border-radius: 20px;
         margin-top:45px;
     }
-    .container img{
+    .container .img-container{
         border-radius: 10px;
+        padding: 2.5rem;
+        display: inline-block;
+    }
+    .container img{
+        object-fit: cover;
+        border-radius: 0.625rem;
+    }
+
+    .container .content{
+        margin-top:0;
     }
 }
 
