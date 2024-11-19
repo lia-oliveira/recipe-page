@@ -21,7 +21,7 @@ Preview design:
 ![](./design/preview.jpg)
 
 My solution:
-![](../recipe-page/solution/recipe-page-solution-full-screenshot.png)
+![](./solution/recipe-page-solution-full-screenshot.png)
 
 ### Links
 
