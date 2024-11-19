@@ -26,7 +26,7 @@ My solution:
 ### Links
 
 - Solution URL: [Recipe Page Repo](https://github.com/lia-oliveira/recipe-page)
-- Live Site URL: [Recipe Page Live](https://your-live-site-url.com)
+- Live Site URL: [Recipe Page Live](https://recipe-page-seven-teal.vercel.app/)
 
 ## My process
 
