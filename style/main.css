@@ -133,7 +133,7 @@ ol li::marker{
     background-color: var(--White);
 }
 
-article img {
+.container img {
     width: 100%;
     object-fit: cover;
 }
@@ -141,11 +141,6 @@ article img {
 article .content {
     margin: 2.5rem 1.875rem 1.875rem;
 }
-/*
-article .content p:first-of-type{
-    padding: 0 0.2rem;
-    margin-bottom: 2.375rem;
-}*/
 
 article .prep-time{
     background-color: var(--Rose-50);
