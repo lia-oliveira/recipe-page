@@ -134,18 +134,17 @@ ol li::marker{
     font-weight: var(--fw-600);
 }
 
-.container{
+main{
     width: 100%;
     max-width: 43.75rem;
     background-color: var(--White);
 }
 
-.container img {
+main img {
     width: 100%;
     min-height: 11rem;
     object-fit: cover;
 }
-
 
 article{
     margin: 2rem 1.875rem 1.773rem 1.875rem;
@@ -205,23 +204,23 @@ td {
     html, body{
         background-color: var(--Stone-100);
     }
-    .container{
+    main {
         max-width: 710px;
         background-color: var(--White);
         border-radius: 20px;
         margin-top: 2.5rem;
     }
-    .container .img-container{
+    main .img-container{
         border-radius: 10px;
         padding: 2.5rem;
         display: inline-block;
     }
-    .container img{
+    main img{
         object-fit: cover;
         border-radius: 0.625rem;
     }
 
-    .container .content{
+    main .content{
         margin: 0 2.5rem 2.5rem;
     }
 
